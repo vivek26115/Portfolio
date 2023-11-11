@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivek - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        background-color: rgba(3, 21, 70, 0.329);
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-weight: bold;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+
+      .firstsection > div {
+        width: 30%;
+      }
+
+      .leftsection {
+        font-size: 2rem;
+        margin: 30px 0;
+      }
+
+      .rightsection img {
+        width: 70%;
+        margin: 30px;
+      }
+
+      .rightsection img:hover {
+        filter: drop-shadow(5px 5px 10px rgba(2, 46, 165, 0.329));
+        margin: 32px;
+      }
+
+      .purple {
+        color: rgb(113, 45, 177);
+      }
+
+      #element {
+        color: #712db1;
+      }
+
+      .leftsection img {
+        width: 40vh;
+        border-radius: 50%;
+        opacity: 0.7;
+      }
+
+      .secondSection {
+        margin: 30px 0 0 125px;
+        width: 80vh;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      .box {
+        background: white;
+        width: 65vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .box .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+
+      footer{
+        margin-top: 367px;
+        
+        height: 230px;
+       
+      }
+
+      .footer{
+        display:flex;
+        margin: 23px 122px ;
+      }
+
+  footer {
+  background-color: rgb(3, 21, 70, 0.329);
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+/* Styling for links in the footer */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vivek's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <div><img src="anjali.png" alt="" /></div>
+          Hi, My name is <span class="purple">Vivek</span>
+          and I am a passionate <span id="element"></span>
+        </div>
+
+        <div class="rightsection">
+          <img src="port.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">HTML Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              "Experienced HTML developer with a strong proficiency in creating and maintaining responsive, user-friendly web pages while adhering to the latest web standards and best practices."
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title"> Angular Dev. (2022-2023)</div>
+            <div class="vertical-desc">
+              "Skilled Angular developer with expertise in building dynamic web applications, utilizing components, services, and the latest front-end technologies to create robust and interactive user interfaces."
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">front-end Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              "Frontend developer with a focus on crafting engaging and visually appealing user experiences through the use of HTML, CSS, and JavaScript, while continuously adapting to industry trends."
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Full-Stack Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              "Full-stack developer proficient in both front-end and back-end technologies, delivering end-to-end web solutions with expertise in UI/UX design, server-side development, and database management."
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Me</h3>
+
+          
+          
+            <p>Hello, I'm Vivek Kumar, a passionate and creative web developer with a strong background in designing and developing web applications. I'm dedicated to delivering high-quality, user-friendly, and visually appealing websites that meet both client and end-user needs.</p>
+            <p>With 1 years of experience in the field, I have honed my skills in front-end and back-end development. My expertise includes HTML, CSS, JavaScript, and various web development frameworks and libraries. I'm also well-versed in working with databases, server-side scripting.</p>
+              <p> I believe in continuous self-improvement and love to stay updated with the latest industry trends and best practices.</p>
+          </div>
+                  
+  
+        <div class="footer-section">
+          <h3>Contact Information</h3>
+          <p>Email: vivekkumar26115@gmail.com</p>
+          <p>Phone: 9142756826</p>
+        </div>
+  
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="https://github.com/vivekkumar26115">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/vivekkumar26115">LinkedIn</a></li>
+            <li><a href="https://vivekkumar.com">Portfolio Website</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "App Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
